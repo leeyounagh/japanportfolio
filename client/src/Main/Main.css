@@ -1,0 +1,74 @@
+.Main_logo_1{
+    font-weight: 900;
+    font-size: 60px;
+    color: #4285f4;
+}
+.Main_logo_2{
+    font-weight: 900;
+    font-size: 60px;
+    color:#ea4335;
+}
+.Main_logo_3{
+    font-weight: 900;
+    font-size: 60px;
+    color:#fbbc05;
+}
+.Main_logo_4{
+    font-weight: 900;
+    font-size: 60px;
+    color:#4285f4;
+}
+
+.Main_logo_5{
+    font-weight: 900;
+    font-size: 60px;
+    color:#34a853;
+}
+.Main_logo_6{
+    font-weight: 900;
+    font-size: 60px;
+    color:#ea4335;
+}
+
+input:focus {outline: 2px solid lightgray;}
+
+.start_title {
+	font-size: 20px;
+	min-width:11px;
+	white-space: nowrap;
+
+	position: fixed;
+	color: transparent;
+	left:0px;
+    top:-65px;
+	transform: translate(-50%, -50%);
+	font-family: Inter;
+	font-family: Inter var;
+	font-weight: 700;
+  }
+  
+  .start_title::before {
+	content: "FEエンジニアイスヨンと申します。";
+	position: absolute;
+	left:0px;
+    top:-65px;
+	width: 100%;
+	height: 100%;
+	color: black;
+	font-weight: 700;
+	overflow: hidden;
+	border-right: 1px solid black;
+	animation: typing 5s steps(31) ;
+	font-family: Inter;
+	font-family: Inter var;
+  }
+  
+  @keyframes typing{
+	0% {
+	  width: 0%;
+	}
+	50% {
+	  width: 100%;
+	}
+
+  }
