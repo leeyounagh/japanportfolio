@@ -20,14 +20,14 @@ const History = () => {
     }
     const secondPageRenderer = () =>{
         return(
-            <div style={{height:'500px',
+            <div style={{height:'500px',fontSize:"1rem"
             }}>
                <h4>プロジェットの説明</h4>
                 <h5>  
                     専攻が観光学科だったので、旅行に関したアプリを制作したかったです。
                     ユーザーと旅行の計画を一緒に作ってみて、観光地、宿泊施設、美味しい店、
                     ショッピングスポットで分けて見るのができて、おすすめとかいいね機能もあります。
-                    そして、 Hellojejuのユーザーがお互いに情報を共有したり、観光地を推薦することができる
+                    そして,Hellojejuのユーザーがお互いに情報を共有したり、観光地を推薦することができる
                     コミュニティもあります。
 
                 </h5>
@@ -93,9 +93,9 @@ const History = () => {
           {
             next===1?<div style={{}}>
                 <h2>HELLO JEJU</h2>
-                 <h5>制作期間:　2022.06.01~2022.07.31 2っか月</h5>
+                 <h5>制作期間:　2022.06.01~2022.07.31 2ヶ月</h5>
            <h5> 言語: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
-           <h5>githubで cloneして、terminalで  npm install, そして、cd clientした後にnpm install、
+           <h5>github(ギットハブ)で cloneして、terminalで  npm install, そして、cd clientした後にnpm install、
                 最後に　npm run dev 入力してくださったら、テストができます。 🙆‍♀️</h5>
            <h5>
            <a  href='https://github.com/leeyounagh/Newhellojeju'>
@@ -137,10 +137,10 @@ const History = () => {
                     next2?<div>{secondPageRenderer2()}</div>:
                    <div style={{height:'500px',}}>
                     <h2>VintAge</h2>
-                       <h5>制作期間:2022.05.01~05.31 一っか月</h5>
+                       <h5>制作期間:2022.05.01~05.31 一ヶ月</h5>
               <h5> 사용언어: HTML,CSS,JS,REACT,MONGODB,NODEJS</h5>
         
-            <h5>githubで cloneして、terminalで  npm install, そして、cd clientした後にnpm install、
+            <h5>github(ギットハブ) cloneして、terminalで  npm install, そして、cd clientした後にnpm install、
                 最後に　npm run dev 入力してくださったら、テストができます。 🙆‍♀️
                 
             </h5>
